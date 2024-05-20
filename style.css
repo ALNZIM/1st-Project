@@ -1,0 +1,78 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.arredondada{
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    box-shadow: 15px 12px 0px black;
+}
+#back{
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    background-color: black;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.c2{
+    width: 75px;
+    height: 23px;
+    border-radius: 4px;
+    position: absolute;
+    top: 48%;
+    left: 6%;
+    background-color: hsl(47, 88%, 63%);
+    text-align: center;
+    font-family: minhaFonte;
+}
+.Published{
+    position: absolute;
+    top: 52%;
+    left: 6%;
+    font-size: 14px;
+    font-family: variable;
+}
+.paragraf{
+    color: hsl(47, 88%, 63%);
+    position: absolute;
+    top: 57%;
+    left: 6%;
+    font-size: 24px;
+    font-family: minhaFonte;
+}
+.phrase{
+    position: absolute;
+    top: 66%;
+    left: 6%;
+    font-size: 16px;
+    text-align: justify;
+    font-family: variable;
+}
+.author{
+    position: absolute;
+    top: 85%;
+    left: 15%; 
+    font-family: minhaFonte; 
+}
+#Pf{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 87%;
+    left: 4px;
+
+}
